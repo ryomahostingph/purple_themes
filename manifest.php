@@ -7,9 +7,9 @@ return array(
 	'inherit'     => 'default',
 
 	// This data is not displayed anywhere.
-	//'author'      => 'Designer: Mihael | Coded By: Skyzone',
-	//'version'     => 'Orange Themes 1.0',
-	//'description' => 'Bootstrap Theme for FluxCP',
-	//'website'     => 'https://skyzonehosting.net || https://skyzone-solution.net'
+	'author'      => 'Designer: Mihael | Coded By: Skyzone',
+	'version'     => 'Orange Themes 1.0',
+	'description' => 'Bootstrap Theme for FluxCP',
+	'website'     => 'https://skyzonehosting.net || https://skyzone-solution.net'
 );
 ?>

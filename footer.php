@@ -14,19 +14,26 @@
                     <div class="footer-logo"></div>
 
                     <p>
-						Come on and experience the new type of RO gameplay. 
+						The time has come once again to experience the legendary MMORPG Ragnarok Online.
                     </p>
-		<p>
-						The Quest is on!
-		 </p>
+
                     <ul class="footer-social-list">
                         <li>
-			<a href="#"><i class="fa fa-facebook-square"></i></a>
-		</li>
-		<li>
-			<a href="#"><i class="fa fa-youtube-play"></i></a>
-		</li>
-                        </ul>
+                            <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
                     
                     
                 </div> <!-- end footer-info -->
@@ -41,7 +48,7 @@
                         <li><a href="#top">Home</a></li>
                         <li><a href="#about">Information</a></li>
                         <li><a href="#donation">Donation</a></li>
-                        <li><a href="#shop">Database</a></li>
+                        <li><a href="#shop">Shop</a></li>
                         <li><a href="#download">Downloads</a></li>
                         <li>
 							<?php if (count(Flux::$appConfig->get('ThemeName', false)) > 1): ?>				
@@ -71,6 +78,8 @@
 				<div class="col-twelve">
 					<div class="copyright">
 						<span>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Gravity Co., Ltd. & Lee Myoungjin (Studio DTDS) All Rights Reserved.</span> 
+						<span>Design By <a href="https://forum.cronus-emulator.com/profile/78797-mihael/">Mihael</a></span>	         	
+						<span>Coded by <a href="https://skyzonehosting.net" target="_blank">Skyzone</a></span><br>	
 						<p class="text-muted">
 							<?php if (Flux::config('ShowCopyright')): ?>
 							Powered by <a href="https://github.com/rathena/FluxCP" target="_blank">FluxCP</a>

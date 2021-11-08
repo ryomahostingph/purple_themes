@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 <!-- home -->
-<section id="home" data-parallax="scroll" data-image-src="<?php echo $this->themePath('images/hero-bg.png') ?>" data-natural-width=1920 data-natural-height=1080>
+<section id="home" data-parallax="scroll" data-image-src="<?php echo $this->themePath('images/hero-bg.jpg') ?>" data-natural-width=3000 data-natural-height=2000>
 
 	<div class="overlay"></div>
 	<div class="home-content">        
@@ -43,6 +43,12 @@
 			<a href="#"><i class="fa fa-facebook-square"></i></a>
 		</li>
 		<li>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+		</li>
+		<li>
 			<a href="#"><i class="fa fa-youtube-play"></i></a>
 		</li>
 	</ul>
@@ -68,11 +74,19 @@
 			<h1 class="intro-header" data-aos="fade-up"><img src="<?php echo $this->themePath('images/girl-bg.png'); ?>" /></h1>
 		</div>
 		<div class="col-eight">
-			<h1>Are you looking for a well balanced mid-rate server?</h1>
+			<h1>A server to cater your Intense desire for gaming.</h1>
 			<p class="lead" data-aos="fade-up">
-				Hello, I am Epic. I came from the original classic Ragnarok. I've been to many servers from low to super high rates. They have different gameplays and modes. All I can say is most of the low to mid rates are so hard to farm and so difficult to cope up with other pioneer players and mostly they stick to classic mode. On the other hand, most of the high rate servers are so imbalanced and PVP based. It came to me the idea of having a mid-rate server with a lot of customizations and new gameplays, where you can enjoy playing RO with a new different story.
+				The time has come once again to experience the legendary MMORPG Ragnarok Online. Continue the legend and relive the glorious past that can never be extinguished!
 			</p>
-			</div>  
+			<p class="lead" data-aos="fade-up">	
+				On the edge of Midgard’s trends
+				Ragnarok Online is set on 999x/999x MID experience rates, 99/70 base-job levels for Classic Gaming. The server is running under Ep. 5.0 Yuno.
+
+				A Gamers’ Haven
+				The server provides showcase features to give its players their best gaming experience. Automated and Hosted events are lined-up with exciting and inimitable concepts. 
+				Battle grounds for Player versus Player combats are set on per level category.
+			</p>
+		</div>  
 	</div>
 
 	<div class="row about-features">
@@ -80,98 +94,48 @@
 			<div class="bgrid feature" data-aos="fade-up">	
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/rok.png'); ?>" /> </span></center>            
 				<div class="service-content">
-					<center><h2>= SERVER INFORMATION =</h2></center>
-					<h4>&#8226; <font color="D4AD2F">SERVER DATABASE:</font> 
-					<h4>&#x21e8; Singapore
-					<h4>&#8226; <font color="D4AD2F">SERVER EPISODE:</font>
-					<h4>&#x21e8; Episode 12 (Customized)
-					<h4>&#8226; <font color="D4AD2F">MAX BASE LEVEL:</font>
-					<h4>&#x21e8; 175
-					<h4>&#8226; <font color="D4AD2F">MAX JOB LEVEL:</font>
-					<h4>&#x21e8; 60
-					<h4>&#8226; <font color="D4AD2F">MAX STATUS LEVEL:</font>
-					<h4>&#x21e8; 120
-					<h4>&#8226; <font color="D4AD2F">MAX ATTACK SPEED:</font> 
-					<h4>&#x21e8; 193
-					<h4>&#8226; <font color="D4AD2F">NO CAST DELAY:</font> 
-					<h4>&#x21e8; 150 Dex Instant Cast
-					<h4>&#x21e8; Kiel Based Server
-					<h4>&#8226; <font color="D4AD2F">FROZEN OR UNFROZEN:</font>
-					<h4>&#x21e8; Frozen
-					<h4>&#8226; <font color="D4AD2F">ANDROID PLATFORM:</font>
-					<h4>&#x21e8; Coming Soon
-
-					</h4>					
+					<center><h3>SERVER RATES:</h3></center>
+					<h5>- <font color="46305e">Max Level/Job</font> : xxx
+					<h5>- <font color="46305e">Max Status</font> : xxx
+					<h5>- <font color="46305e">Max ASPD</font> : xxx
+					<h5>- <font color="46305e">Rates</font> : xxk/xxk/xxxx
+					<h5>- <font color="46305e">Drops Equips Normais</font> : xx%
+					<h5>- <font color="46305e">Drops Equips MVP</font> : xx%
+					<h5>- <font color="46305e">Drops Cartas Normais</font> : xx%
+					<h5>- <font color="46305e">Drops Cartas MVP</font> : xx%
+					<h5>- <font color="46305e">Server Type</font> : Revo Classic
+					</h5>					
 				</div> 
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">	
 				<center><span class="icon"> <img src="<?php echo $this->themePath('images/icons/nid.png'); ?>" /> </span></center>                        
 				<div class="service-content">	
-					<center><h2>= EPIC RATES =</h2></center>  
-					<h4>&#8226; <font color="D4AD2F">SERVER TYPE:</font>
-					<h4>&#x21e8; Renewal Features
-					<h4><em>&#8594; Maps</em>
-					<h4><em>&#8594; 3rd Jobs and Expanded Jobs</em>
-					<h4>&#x21e8; Pre - Renewal Features
-					<h4><em>&#8594; Items</em>
-					<h4><em>&#8594; Monsters</em>
-					<h4><em>&#8594; Quests and Instances</em>
-					<h4><em>&#8594; Status Calculations</em>
-					<h4>&#8226; <font color="D4AD2F">SERVER RATES:</font>
-					<h4>&#x21e8; 100x/100x/10x
-					<h4>&#8226; <font color="D4AD2F">NORMAL/MVP DROP EQUIPS:</font>
-					<h4>&#x21e8; 10x = 0.10% (Boost)
-					<h4>&#8226; <font color="D4AD2F">NORMAL DROP CARDS:</font>
-					<h4>&#x21e8; 500x = 5% (Fixed)
-					<h4>&#8226; <font color="D4AD2F">MINI-BOSS DROP CARDS:</font>
-					<h4>&#x21e8; 100x = 1% (Fixed)
-					<h4>&#8226; <font color="D4AD2F">MVP DROP CARDS:</font>
-					<h4>&#x21e8; 50x = 0.5% (Fixed)
-					</div>	 
+					<center><h3>EPISODE RELEASE:</h3></center>  
+					<h5>- <font color="46305e">EPISODE 4</font> : Incluindo uma que permite fabricar um Chapéu Visual inédito.
+					<h5>- <font color="46305e">EPISODE 5</font> : Transforme alguns dos chapéus clássicos em Itens Visuais.
+					<h5>- <font color="46305e">EPISODE 6</font> : Aprimore alguns dos equipamentos clássicos e torne-os ainda mais poderosos.
+					<h5>- <font color="46305e">EPISODE 7</font> : Monstros de Nv 146+ para maior desafio.
+					</h5>
+				</div>	 
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/fad.png'); ?>" /> </span></center>		            
 				<div class="service-content">
-					<center><h2>= EPIC FEATURES =</h2></center>
-					<h4>&#8226; <font color="D4AD2F">CUSTOM EPIC EPISODES</font>
-					<h4>&#8226; <font color="D4AD2F">CUSTOM EPIC LORES</font>
-					<h4>&#8226; <font color="D4AD2F">CUSTOM EPIC QUESTS</font>
-					<h4>&#8226; <font color="D4AD2F">CUSTOM EPIC ITEMS</font>
-					<h4>&#8226; <font color="D4AD2F">INSTANCES:</font>
-					<h4>&#x21e8; Official Instances
-					<h4><em>&#8594; Endless Tower</em>
-					<h4><em>&#8594; Nidhoggur's Nest</em>
-					<h4><em>&#8594; Orc Memory Dungeon</em>
-					<h4><em>&#8594; Sealed Shrine</em>
-					<h4>&#x21e8; Custom Instances
-					<h4><em>&#8594; Mini - Endless Tower</em>
-					<h4><em>&#8594; The King Poring Expedition</em>
-					<h4><em>&#8594; Forbidden Citadel</em>
-					<h4><em>&#8594; Frozen Realm</em>
-					<h4><em>&#8594; Cursed Tomb</em>
-					<h4>&#8226; <font color="D4AD2F">CUSTOM MVP CONTENTS:</font>
-					<h4>&#x21e8; Dark Chasm
-					<h4>&#x21e8; Death Chasm
-				</h4>							
+					<center><h3>SERVER PROTECTION:</h3></center>
+					<h5>- <font color="46305e">Guepard Shield 3.0</font> : Utilizamos o que tem de melhor no mercado com relação a Proteções Internas e Externas em nosso servidor, para que você jogador possa desfrutar de sua jogatina sem medo ou problemas.
+					<h5>- <font color="46305e">@LGP</font> : A Addon Lite Graphics Plugin também está ativa e atualizada dentro do jogo.
+					</h5>						
 				</div> 
 			</div> <!-- /bgrid -->
 
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/emp.png'); ?>" /> </span></center>	
 				<div class="service-content">
-					<center><h2>= SERVER EVENTS =</h2></center>
-					<h4>&#8226; <font color="D4AD2F">WEEKLY EVENTS</font>
-					<h4>&#8226; <font color="D4AD2F">MONTHLY EVENTS</font>
-					<h4>&#8226; <font color="D4AD2F">SPECIAL EVENTS</font>
-					<h4>&#8226; <font color="D4AD2F">GVG AND PVP EVENTS:</font>
-					<h4>&#x21e8; War of Emperium
-					<h4><em>&#8594; Not Yet Available</em>
-					<h4>&#x21e8; King of Emperium
-					<h4><em>&#8594; Not Yet Available</em>
-					<h4>&#x21e8; Battlegrounds
-					<h4><em>&#8594; Not Yet Available</em>
+					<center><h3>WAR OF EMPERIUM</h3></center>
+					<h5>- <font color="46305e">Horários</font> : Segunda, Quarta, Sexta, Domingo das 19:00 às 20:00 horas.
+					<h5>- <font color="46305e">Premiações</font> : Ao clã vencedor da Guerra do Emperium será enviado 1 Baú da Woe contendo grandes prêmiações.
 					</h5>
 				</div> 
 			</div> <!-- /bgrid -->
@@ -179,17 +143,9 @@
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"><img src="<?php echo $this->themePath('images/icons/shu.png'); ?>" /> </span></center>		            
 				<div class="service-content">	
-					<center><h2>= EXTRA INFORMATIONS =</h2></center>
-					<h4>&#8226; <font color="D4AD2F">PLAYER BENEFITS:</font>
-					<h4><em>&#8594; Newbie Freebies</em>
-					<h4><em>&#8594; VIP Perks</em>
-					<h4><em>&#8594; Streamer Package</em>
-					<h4><em>&#8594; Solo Package</em>
-					<h4><em>&#8594; Guild Package (Minimum of 8 members)</em>
-					<h4>&#8226; <font color="D4AD2F">SERVER SYSTEMS:</font>
-					<h4><em>&#8594; VIP System</em>
-					<h4><em>&#8594; Party System</em>
-					<h4><em>&#8594; Questing / Grinding System</em>
+					<center><h3>GVG & PVP EVENT</h3></center>
+					<h5>- <font color="46305e">@irbg</font> : Comando @irbg ativo no servidor, mais dinâmismo na campal.
+					<h5>- <font color="46305e">Emblemas</font> : Troque seus emblemas por stuffs, visuais, vip entre outras prêmiações.
 					</h5>
 				</div>
 			</div> <!-- /bgrid -->
@@ -197,11 +153,9 @@
 			<div class="bgrid feature" data-aos="fade-up">
 				<center><span class="icon"> <img src="<?php echo $this->themePath('images/icons/vot.png'); ?>" /> </span></center>	   	           
 				<div class="service-content">
-					<center><h2>= SERVER PROTECTIONS =</h2></center>
-					<h4>&#8226; <font color="D4AD2F">GEPARD SHIELD 3.0</font>
-					<h4>&#8226; <font color="D4AD2F">DDOS PROTECTED</font>
-					<h4>&#8226; <font color="D4AD2F">ANTI - BOT CHECKER</font>
-					</h4>				
+					<center><h3>VOTE FOR POINTS</h3></center>
+					<h5>- <font color="46305e">Vote</font> : Ganhe pontos votando diariamente em nosso servidor, e troque por itens visuais, vip, pontos de cash entre outras prêmiações.
+					</h5>						
 				</div>
 			</div> <!-- /bgrid -->
 			
@@ -210,85 +164,98 @@
 </section> 
 <!-- end about -->  
 
-<!-- epic -->
-<section id="team">
+<!-- pricing -->
+<section id="donation">
+	<div class="row pricing-content">
 
-	<div class="row epic-team">
-		<div class="features-list block-1-3 block-m-1-2 block-mob-full group">
-			<div class="bgrid feature" data-aos="fade-up">	
-				<center><span class="icon"><img src="<?php echo $this->themePath('images/gm/epic2.png'); ?>" /> </span></center>            
-				<div class="service-content">
-					<center><h2>= Nostalgia =</h2></center>
-					<h4><font color="D4AD2F">&#8226; ROLES:</font> 
-					<h4><em><font color="D4AD2F">&#8594; Game Development</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Story Writer</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Content Creation</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Graphic Designer</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Server Artist</font></em>					
-					</h4>					
+		<div class="col-four pricing-intro">
+			<h1 class="intro-header" data-aos="fade-up">DONATION INFORMATION:</h1>
+			<h5 data-aos="fade-up">
+				Apesar de nossa proposta ser de manter um servidor sem pay-to-win, temos grandes gastos mensais com o servidor. Com isso em mente optamos por esse sistema de doações integrados dentro do jogo. Doando qualquer valor você receberá uma quantidade de Créditos que poderão ser trocados por alguns itens visuais, tickets vip, stuffs entre outros itens cosméticos. 
+			</h5>
+		</div>
+
+		<div class="col-eight pricing-table">
+			<div class="row">
+
+				<div class="col-six plan-wrap">
+					<div class="plan-block" data-aos="fade-up"> 
+						<div class="plan-top-part">
+							<h3 class="plan-block-title">TOPUP #1</h3>
+							<p class="plan-block-per">Valor Minímo:</p>
+							<p class="plan-block-price"><sup>R$</sup>10</p>
+						</div>
+						<div class="plan-bottom-part">
+							<ul class="plan-block-features">
+								<li><span>Bonus No# 1</span> ITEM 1</li>
+								<li><span>Bonus No# 2</span> ITEM 2</li>	
+								<li><span>Bonus No# 3</span> ITEM 3</li>
+								<li><span>Bonus No# 4</span> ITEM 4</li>	
+							</ul>
+							<a class="button button-primary large" href="<?php echo $this->url('donate'); ?>">Buy Now</a>
+						</div>
+					</div>
+				</div> <!-- end plan-wrap -->
+
+				<div class="col-six plan-wrap">
+					<div class="plan-block primary" data-aos="fade-up">
+
+						<div class="plan-top-part">
+							<h3 class="plan-block-title">TOPUP #1</h3>
+							<p class="plan-block-per">Valor Minímo:</p>
+							<p class="plan-block-price"><sup>R$</sup>20</p>
+						</div>
+
+						<div class="plan-bottom-part">
+							<ul class="plan-block-features">
+								<li><span>Bonus No# 1</span> ITEM 1</li>
+								<li><span>Bonus No# 2</span> ITEM 2</li>	
+								<li><span>Bonus No# 3</span> ITEM 3</li>
+								<li><span>Bonus No# 4</span> ITEM 4</li>							
+							</ul>
+							<a class="button button-primary large" href="<?php echo $this->url('donate'); ?>">Buy Now</a>
+						</div>
+
+					</div>
+				</div> <!-- end plan-wrap -->
+
+			</div>               
+		</div> <!-- end pricing-table -->
+
+	</div> <!-- end pricing-content -->
+</section> <!-- end pricing -->
+
+<!-- shops Section  -->
+<section id="shop" class="">
+	<div class="row" style="padding-top:20px;">
+		<div class="col-twelve text-center pt-5">
+			<h1 class="intro-header" data-aos="fade-up">CASH SHOP</h1>
+		</div>   		
+	</div>   	
+
+	<div class="row owl-wrap">
+		<div id="shop-slider" data-aos="fade-up">
+			<div class="slides owl-carousel text-center">	
+				
+				<?php foreach($config['shops'] as $items): ?>
+				<div>
+					<div class="shop-item">
+							<img src="<?php echo $this->themePath('images/shop/'.$items[0]); ?>" alt="item image">
+							<div class="item-info text-center">
+								PRICE: <?php echo $items[1]; ?>
+								<span class="position">
+									<?php echo $items[2]; ?>
+								</span>
+							</div>
+								<a class="button button-primary cta" href="<?php echo $this->url('donate'); ?>">Purchase</a>
+					</div>
 				</div> 
-			</div> <!-- /bgrid -->
-
-			<div class="bgrid feature" data-aos="fade-up">	
-				<center><span class="icon"> <img src="<?php echo $this->themePath('images/gm/epic1.png'); ?>" /> </span></center>                        
-				<div class="service-content">	
-					<center><h2>= Epic =</h2></center>  
-					<h4><font color="D4AD2F">&#8226; ROLES:</font> 
-					<h4><em><font color="D4AD2F">&#8594; Server Administration</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Game Development</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Game Features</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Server Gameplay</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Content Creation</font></em>
-					</h4>	
-					</div>	 
-			</div> <!-- /bgrid -->
-
-			<div class="bgrid feature" data-aos="fade-up">
-				<center><span class="icon"><img src="<?php echo $this->themePath('images/gm/epic3.png'); ?>" /> </span></center>		            
-				<div class="service-content">
-					<center><h2>= Kael =</h2></center>
-					<h4><font color="D4AD2F">&#8226; ROLES:</font> 
-					<h4><em><font color="D4AD2F">&#8594; Game Development</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Technical Support</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Web Development</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Scripter / Programmer</font></em>
-					</h4>	
-					</div>	 
-			</div> <!-- /bgrid -->
-
-		<div class="bgrid feature" data-aos="fade-up">
-				<center><span class="icon"><img src="<?php echo $this->themePath('images/gm/epic4.png'); ?>" /> </span></center>	
-				<div class="service-content">
-					<center><h2>= Elena =</h2></center>
-					<h4><font color="D4AD2F">&#8226; ROLES:</font> 
-					<h4><em><font color="D4AD2F">&#8594; Server Events</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Discord / Facebook Moderator</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Server Advertisements</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Server Support</font></em>
-					</h4>	
-					</div>	 
-			</div> <!-- /bgrid -->
-
-			<div class="bgrid feature" data-aos="fade-up">
-				<center><span class="icon"> <img src="<?php echo $this->themePath('images/gm/epic5.png'); ?>" /> </span></center>	   	           
-				<div class="service-content">
-					<center><h2>= Celestial =</h2></center>
-					<h4><font color="D4AD2F">&#8226; ROLES:</font> 
-					<h4><em><font color="D4AD2F">&#8594; Server Events</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Discord / Facebook Moderator</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Server Advertisements</font></em>
-					<h4><em><font color="D4AD2F">&#8594; Server Support</font></em>
-					</h4>	
-					</div>	 
-			</div> <!-- /bgrid -->
-
-
-			
-		</div> <!-- end team-list -->
-	</div> <!-- end epic-team -->	
-</section> 
-<!-- end about -->  
-
+				<?php endforeach; ?>
+			</div> <!-- end slides -->
+		</div> <!-- end shop-slider --> 
+	</div> <!-- end flex-container -->
+</section>
+<!-- end shops -->
 
 <!-- download -->
 <section id="download">
@@ -297,7 +264,7 @@
 			<h1 class="intro-header"  data-aos="fade-up">DOWNLOAD GAME CLIENT</h1>
 			
 			<h5 class="lead" data-aos="fade-up">
-			   THESE ARE THE AVAILABLE LINKS OF OUR SERVER.
+			   CLICK ON THE LINKS BELOW TO PLAY ON OUR SERVER.
 			</h5>
 			
 			<p>
@@ -313,7 +280,7 @@
 					</a>
 				</div>
 				 <h5 class="lead" data-aos="fade-up">
-			  IF YOU WILL FIND SOME BUGS AND ERRORS OR YOU HAVE A CONCERN, PLEASE MESSAGE OUR STAFF IMMEDIATELY IN OUR DISCORD SERVER.
+			  What bug or problem is found, please report it to staff immediately.
 			</h5>
 			</ul>
 

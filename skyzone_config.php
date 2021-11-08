@@ -7,9 +7,9 @@
 $config['navbar_source'] = 1;
 
 //error_reporting(0);
-$config['server_name'] = "ERO"; //Server Name
-$config['server_introduction'] = "Welcome to the most exciting mid-rate server that has been released this 2021. "; //Server INTRODUCTION
-$config['server_sub_intro'] = "Renewal Features with Pre - Renewal Mechanics"; //Server Sub Intro
+$config['server_name'] = "RAGNAROK ONLINE"; //Server Name
+$config['server_introduction'] = "Welcome to Ragnarok Online Experience the Legendary Game. "; //Server INTRODUCTION
+$config['server_sub_intro'] = "MMORPG Ragnarok Online."; //Server Sub Intro
 
 
 $ONLINE = $info['players_online'];
@@ -90,13 +90,13 @@ if(!($params->get('module') == 'main' && $params->get('action') == 'index')){
 			'',
 			'',
 			$this->url('pages', 'staff'),
-			'Epic Team',
+			'Staff',
 		),
 		array(
 			'',
 			'',
 			$this->url('pages', 'information'),
-			'Information',
+			'SERVER INFORMATION',
 		), 
 	);
 }else{ 
@@ -116,21 +116,21 @@ if(!($params->get('module') == 'main' && $params->get('action') == 'index')){
 		array(
 			'', #[0]
 			'smoothscroll', #[1]
-			'#team', #[2]
-			'Epic Team', #[3]
+			'#donation', #[2]
+			'Donation', #[3]
+		),
+		array(
+			'', #[0]
+			'smoothscroll', #[1]
+			'#shop', #[2]
+			'Shop', #[3]
 		),
 		array(
 			'', #[0]
 			'smoothscroll', #[1]
 			'#download', #[2]
 			'Download', #[3]
-		),	
-		array(
-			'', #[0]
-			'smoothscroll', #[1]
-			'#donation', #[2]
-			'Donation', #[3]
-		),	
+		),		
 	);
 }
 
@@ -170,8 +170,8 @@ $config['downloads'] = array(
 );
 
 $config['community'] = array(
-	'discord' => 'https://discord.gg/VAr5DkXa5u',
-	'facebook' => 'https://www.facebook.com/PlayEpicRagnarokOnline',
+	'discord' => 'https://discordapp.com/widget?id=716136830399021057&theme=dark',
+	'facebook' => 'SkyzoneSolutions',
 );
 
 
